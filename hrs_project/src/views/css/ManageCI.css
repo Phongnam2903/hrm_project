@@ -1,0 +1,48 @@
+/* ManageCI.css */
+
+/* Styles for the title */
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    margin-bottom: 0;
+}
+
+/* Styles for the form container */
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for form labels and controls */
+.form-label {
+    font-weight: bold;
+}
+
+.container-custom {
+    width: 100%;
+}
+
+/* Styles for form buttons */
+.btn-custom-save,
+.btn-custom-reset {
+    width: 48%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .form-container {
+        max-width: 100%;
+    }
+
+    .btn-custom-save,
+    .btn-custom-reset {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

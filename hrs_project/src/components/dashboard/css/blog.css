@@ -1,0 +1,36 @@
+.blog-card {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.blog-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.blog-card .card-body {
+    background-color: #f8f9fa;
+}
+
+.blog-card .card-title {
+    color: #343a40;
+}
+
+.blog-card .card-subtitle {
+    margin-top: 5px;
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.blog-card .card-text {
+    color: #495057;
+}
+
+.blog-card .btn {
+    margin-top: 10px;
+}
+
+.blog-card .btn-primary {
+    margin-top: 10px;
+}

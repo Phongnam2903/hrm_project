@@ -1,0 +1,82 @@
+/* manageDepartment.css */
+
+/* Style for List Departments heading */
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Style for Create new Department button */
+.square-button {
+    border-radius: 0 !important;
+}
+
+/* Style for department cards */
+.card {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.card-actions .btn {
+    width: 100%;
+    max-width: 120px;
+}
+
+/* Style for modals */
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.modal-footer {
+    border-top: none;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
